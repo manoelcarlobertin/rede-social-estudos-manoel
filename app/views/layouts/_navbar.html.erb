@@ -1,0 +1,20 @@
+<div class="navigation">
+  <div class="logo"></div>
+  <div class="search"></div>
+
+  <div class="options">
+    <%= link_to posts_path, class: "home" do %>
+      <%= image_tag "home.svg" %>
+    <% end %>
+
+
+    <%= link_to new_post_path, class: "plus" do %>
+      <%= image_tag "plus.svg" %>
+    <% end %>
+
+    <%= button_to "Sair",
+                  destroy_user_session_path,
+                  method: :delete,
+                  class: "text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700" %>
+  </div>
+</div>

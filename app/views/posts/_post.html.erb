@@ -1,0 +1,28 @@
+<div class="card">
+  <div class="card-header">
+  <div class="profile-img">
+    <img class="profile-img" src="https://via.placeholder.com/90"/>
+  </div>
+  <div class="profile-info">
+    <div class="name"><%= post.user.email %></div>
+    <div class="location">Niterói RJ</div>
+  </div>
+  <div class="time">
+    <%= post.created_at %>
+  </div>
+  </div>
+  <div class="image-content">
+    <% if post.photo.attached? %>
+      <%= image_tag post.photo, class: "image" %>
+    <% end %>
+  </div>
+  <div class="card-footer p-2">
+    <div class="footer-content text-sm">
+      <span class="likes">N curtidas</span>
+      <p>
+        <span class="font-bold"><%= post.user.email %></span>
+        <%= simple_format post.content %>
+      </p>
+    </div>
+  </div>
+</div>

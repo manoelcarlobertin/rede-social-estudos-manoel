@@ -1,0 +1,20 @@
+<svg width="25px" height="25px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+  <style type="text/css">
+    .pl0 {
+      fill: #FFFFFF;
+      stroke: #000000;
+      stroke-width: 7;
+      stroke-miterlimit: 10;
+    }
+
+    .pl1 {
+      stroke: #000000;
+      stroke-width: 5;
+      stroke-miterlimit: 10;
+    }
+  </style>
+  <path class="pl0" d="M72.9,90H27.1C17.6,90,10,82.4,10,72.9V27.1C10,17.6,17.6,10,27.1,10h45.8C82.4,10,90,17.6,90,27.1v45.8
+          C90,82.4,82.4,90,72.9,90z" />
+  <rect x="25" y="47.5" class="pl1" width="50" height="5" />
+  <rect x="25" y="47.5" transform="matrix(4.485663e-11 -1 1 4.485663e-11 -2.242146e-09 100)" class="pl1" width="50" height="5" />
+</svg>

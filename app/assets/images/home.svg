@@ -1,0 +1,13 @@
+<svg width="25px" height="25px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+  <style type="text/css">
+    .st0 {
+      fill: #FFFFFF;
+      stroke: #000000;
+      stroke-width: 7;
+      stroke-miterlimit: 10;
+    }
+  </style>
+  <path class="st0" d="M90,50.2v38.9c0,0.5-0.4,0.9-0.9,0.9H60.7c-0.5,0-0.9-0.4-0.9-0.9V60.8c0-0.5-0.4-0.9-0.9-0.9H41
+          c-0.5,0-0.9,0.4-0.9,0.9v28.3c0,0.5-0.4,0.9-0.9,0.9H10.9c-0.5,0-0.9-0.4-0.9-0.9V50.2c0-0.2,0.1-0.5,0.3-0.6l39.1-39.3
+          c0.3-0.3,0.9-0.3,1.2,0l39.1,39.3C89.9,49.7,90,49.9,90,50.2z" />
+</svg>
